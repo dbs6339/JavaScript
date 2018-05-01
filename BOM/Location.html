@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script>
+	//아래는 현재 윈도우의 문서가 위치하는 url을 알아내는 방법이다.
+	console.log(location.toString(), location.href);
+	//location 객체는 url을 의미에 따라서 별도의 프로퍼티로 제공하고 있다.
+	console.log(location.protocol, location.host, location.port, location.pathname, location.search,location.hash);
+	//아래 코드는 현재 문서를 http://egoing.net으로 이동한다.
+	location.href="http://egoing.net";
+	//아래도 같은 효과를 낸다.
+	location="http://egoing.net";
+	//아래는 현재 문서를 리로드하는 간편한 방법을 제공한다.
+	location.reload();
+</script>
+</body>
+</html>
