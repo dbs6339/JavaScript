@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<li>name</li>
+	<li>name</li>
+	<li class ="active">name</li>
+	<li class ="active">name</li>
+	<li class ="active">name</li>
+	<script>
+		var lis=document.getElementsByClassName("active");
+		for(var i=0;lis.length;i++){
+			lis[i].style.color="red";
+		}
+	</script>
+</body>
+</html>
