@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li id="active">JavaScript</li>
+</ul>
+<script>
+function loop(){
+	for(var i = 0; i < lis.length; i++){
+	   console.log(lis[i]);
+	}
+}
+console.group('before');
+var lis = document.getElementsByTagName('li');
+loop();
+console.groupEnd();
+console.group('after');
+lis[1].parentNode.removeChild(lis[1]);
+loop();
+console.groupEnd();
+</script>
+</body>
+</html>
