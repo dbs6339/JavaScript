@@ -12,32 +12,32 @@ HTML에서 JavaScript 로드하기
 
 Object Model
 
-##BOM
+## BOM
 
-*전역객체 Window
+* 전역객체 Window
 
-*사용자와 커뮤니케이션 하기
+* 사용자와 커뮤니케이션 하기
 
-*Location 객체
+* Location 객체
 
-*Navigator 객체
+* Navigator 객체
 
-*창 제어
+* 창 제어
 
-##DOM
+## DOM
 
-*제어 대상 찾기
+* 제어 대상 찾기
 
-*jQuery
+* jQuery
 
-*jQuery 제어 대상 찾기
+* jQuery 제어 대상 찾기
 
-*HTMLCollection
+* HTMLCollection
 
-*jQuery 객체
+* jQuery 객체
 
-*Element 객체
+* Element 객체
 
-*Node 객체
+* Node 객체
 
 까지 학습
