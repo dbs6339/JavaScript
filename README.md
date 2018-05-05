@@ -2,7 +2,7 @@
 
 ### 생활 코딩 페이지의 강의를 듣고 자바스크립트 예제파일들을 정리해둔 저장소.
 
-### 2018-05-06
+## 2018-05-06
 
 웹 브라우저와 JavaScript
 
@@ -12,7 +12,7 @@ HTML에서 JavaScript 로드하기
 
 Object Model
 
-## BOM
+### BOM
 
 * 전역객체 Window
 
@@ -24,7 +24,7 @@ Object Model
 
 * 창 제어
 
-## DOM
+### DOM
 
 * 제어 대상 찾기
 
